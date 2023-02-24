@@ -1,4 +1,4 @@
-package Week2;
+package Week2.homeWork;
 
 public class LogicalOperators {
 
