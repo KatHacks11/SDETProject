@@ -1,4 +1,6 @@
 package Week3;
+import java.util.Scanner;
+
 // Homework :
 //Create 2 methods : 1 : getInfo() and 2 : printInfo()
 // Create 3 objects from different constructors and print the object info(fields)
@@ -6,7 +8,7 @@ package Week3;
 
 
 
-public class ContructorExample {
+public class ConstructorExample {
     //Fields/instance variables :
     String className;
     String subject;
@@ -16,8 +18,7 @@ public class ContructorExample {
 
 
     //Default constructor :
-    public ConstructorExample() {
-    }
+
 
     // Other constructor :
 // We have many constructors with the same name from the same class but their Signatures/parameters different.

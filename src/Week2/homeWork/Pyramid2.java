@@ -2,7 +2,6 @@ package Week2.homeWork;
 
 public class Pyramid2 {
 
-    public class Pyramid2 {
         public static void main(String[] args) {
             for(int i = 0; i < 5; i++){
                 for(int j = 5-1; j>0; j--){

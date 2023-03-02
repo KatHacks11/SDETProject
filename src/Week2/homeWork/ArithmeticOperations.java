@@ -1,4 +1,5 @@
 package Week2.homeWork;
+import java.util.*;
 
 public class ArithmeticOperations {
 

@@ -2,7 +2,6 @@ package Week2.homeWork;
 
 public class Pyramid {
 
-    public class Pyramid {
         public static void main(String[] args) {
         /*
         Program to print half pyramid using *
@@ -13,8 +12,8 @@ public class Pyramid {
         * * * *
         * * * * *
          */
-            for(int i = 1; i < 6; i++){
-                for(int j = 1; j <= i; j++){
+            for (int i = 1; i < 6; i++) {
+                for (int j = 1; j <= i; j++) {
                     System.out.print("* ");
                 }
                 System.out.println(); // the cursor is jumping to the next line
@@ -29,8 +28,8 @@ public class Pyramid {
              * *
              *
              */
-            for(int i = 5; i > 0; i--){
-                for(int j = 1; j <= i; j++){
+            for (int i = 5; i > 0; i--) {
+                for (int j = 1; j <= i; j++) {
                     System.out.print("* ");
                 }
                 System.out.println();
@@ -44,8 +43,8 @@ public class Pyramid {
              1 2 3 4
              1 2 3 4 5
              */
-            for(int i = 1; i <= 5; i++){
-                for(int j = 1; j <= i; j++){
+            for (int i = 1; i <= 5; i++) {
+                for (int j = 1; j <= i; j++) {
                     System.out.print(j + " ");
                 }
                 System.out.println();
@@ -59,8 +58,8 @@ public class Pyramid {
              1 2
              1
              */
-            for(int i = 5; i > 0; i--){
-                for(int j = 1; j<=i; j++){
+            for (int i = 5; i > 0; i--) {
+                for (int j = 1; j <= i; j++) {
                     System.out.print(j + " ");
                 }
                 System.out.println();
@@ -76,18 +75,18 @@ public class Pyramid {
              * E E E E E
              */
 //        System.out.println((char)64); // A,65 - B,66 - C,67
-            for(int i =1; i<=5; i++){
-                for(int j = 1; j<=i; j++){
-                    System.out.print((char)(64+i));
+            for (int i = 1; i <= 5; i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print((char) (64 + i));
                 }
                 System.out.println();
             }
 
-            for(int i = 0; i < 5; i++){
-                for(int j = 5-1; j>0; j++){
+            for (int i = 0; i < 5; i++) {
+                for (int j = 5 - 1; j > 0; j++) {
                     System.out.println(" ");
                 }
-                for(int k = 1; k <=5; k++){
+                for (int k = 1; k <= 5; k++) {
                     System.out.println("* ");
                 }
                 System.out.println();

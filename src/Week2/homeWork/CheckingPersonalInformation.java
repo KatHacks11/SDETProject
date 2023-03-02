@@ -1,4 +1,5 @@
 package Week2.homeWork;
+import java.util.Scanner;
 
 public class CheckingPersonalInformation {
     public static void main(String[] args){
